@@ -1,0 +1,15 @@
+// Application-level settings for the Runner target.
+//
+// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the
+// future. If not, the values below would default to using the project name when this becomes a
+// 'flutter create' template.
+
+// The application's name used for the built product (ASCII to avoid codesign/path issues).
+// The user-facing name will be provided via CFBundleDisplayName in Info.plist.
+PRODUCT_NAME = Aqim
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.salaty.noorApp
+
+// The copyright displayed in application information
+PRODUCT_COPYRIGHT = Copyright © 2025 com.example. All rights reserved.

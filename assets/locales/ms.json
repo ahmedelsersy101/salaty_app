@@ -1,0 +1,642 @@
+{
+  "appName": "Doa",
+  "@appName": {
+    "description": "appName",
+    "type": "text",
+    "placeholders": {}
+  },
+  "appLang": "Bahasa Aplikasi",
+  "@appLang": {
+    "description": "appLang",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lang": "Bahasa Melayu",
+  "@lang": {
+    "description": "lang",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Fajr": "Subuh",
+  "@Fajr": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Dhuhr": "Zuhur",
+  "@Dhuhr": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Asr": "Asar",
+  "@Asr": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Maghrib": "Maghrib",
+  "@Maghrib": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Isha": "Isyak",
+  "@Isha": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lastThirdOfTheNight": "Sepertiga Malam Terakhir",
+  "@lastThirdOfTheNight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "middleOfTheNight": "Tengah Malam",
+  "@middleOfTheNight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Sunrise": "Matahari Terbit",
+  "@Sunrise": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Sun": "Ahd",
+  "@Sun": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Mon": "Isn",
+  "@Mon": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Tue": "Sel",
+  "@Tue": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Wed": "Rab",
+  "@Wed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Thu": "Kha",
+  "@Thu": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Fri": "Jum",
+  "@Fri": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Sat": "Sab",
+  "@Sat": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "SundayFullName": "Ahad",
+  "@SundayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "MondayFullName": "Isnin",
+  "@MondayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "TuesdayFullName": "Selasa",
+  "@TuesdayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "WednesdayFullName": "Rabu",
+  "@WednesdayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ThursdayFullName": "Khamis",
+  "@ThursdayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "FridayFullName": "Jumaat",
+  "@FridayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "SaturdayFullName": "Sabtu",
+  "@SaturdayFullName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "activeLocationPlease": "Sila aktifkan lokasi untuk mengaktifkan waktu solat",
+  "@activeLocationPlease": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "prayerSetting": "Tetapan Solat",
+  "@prayerSetting": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "detectLocation": "Kesan Lokasi",
+  "@detectLocation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "adhanSounds": "Bunyi Azan",
+  "@adhanSounds": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "aqsa": "Azan Al-Aqsa",
+  "@aqsa": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "saqqaf": "Hashem Al-Saqqaf",
+  "@saqqaf": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sarihi": "Abdul Majeed Al-Sarihi",
+  "@sarihi": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setTimingCalculations": "Tetapkan Pengiraan Waktu",
+  "@setTimingCalculations": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "automaticallyDetermineCalculationMethod": "Tentukkan Kaedah Pengiraan Secara Automatik",
+  "@automaticallyDetermineCalculationMethod": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "madhab": "Mazhab",
+  "@madhab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "shafie": "Syafie, Maliki dan Hanbali",
+  "@shafie": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "hanafe": "Hanafi",
+  "@hanafe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "madhabNote": "Waktu Isyak bagi mazhab Hanafi lewat sekitar dua belas minit berbanding jumhur (Rujuk Ensiklopedia Fiqh Kuwait 7/175). Waktu Asar juga lewat sekitar setengah jam atau lebih mengikut negara dan musim.",
+  "@madhabNote": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "SeventhOfTheNight": "Tujuh daripada Malam",
+  "@SeventhOfTheNight": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "usingTheAngle": "Menggunakan Sudut",
+  "@usingTheAngle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "SetPrayerTimes": "Tetapkan Waktu Solat",
+  "@SetPrayerTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notificationOptions": "Pilihan Pemberitahuan",
+  "@notificationOptions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nothing": "Tiada",
+  "@nothing": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "silent": "Senyap",
+  "@silent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "bell": "Lonceng",
+  "@bell": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sound": "Azan",
+  "@sound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "aboutPrayer": "Tentang Solat",
+  "@aboutPrayer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timeLeft:": "Masa berbaki untuk azan:",
+  "@timeLeft:": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fromQuran:": "Daripada al-Quran:",
+  "@fromQuran:": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fromSunnah:": "Daripada Sunnah:",
+  "@fromSunnah:": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "prohibitionTimes": "Waktu Larangan Solat",
+  "@prohibitionTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fajrBody": "Sesiapa yang solat Subuh berada dalam perlindungan Allah",
+  "@fajrBody": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "dhuhrBody": "Peliharalah solat dan apa yang dimiliki tangan kanan kamu",
+  "@dhuhrBody": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "asrBody": "Sesiapa yang solat pada dua waktu sejuk akan masuk Syurga",
+  "@asrBody": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "maghribBody": "Tiada bahagian dalam Islam bagi orang yang meninggalkan solat",
+  "@maghribBody": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ishaBody": "Sesiapa yang solat Isyak berjemaah seolah-olah berdiri separuh malam",
+  "@ishaBody": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "timeForPrayer": "Waktu solat",
+  "@timeForPrayer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "openAppReminderTitle": "Peringatan Membuka Aplikasi",
+  "@openAppReminderTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "openAppReminderBody": "Sila buka aplikasi untuk menjadualkan pemberitahuan solat yang baharu.",
+  "@openAppReminderBody": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "prayer": "Solat",
+  "@prayer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "langChange": "Tukar Bahasa",
+  "@langChange": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "themeTitle": "Pilih Tema",
+  "@themeTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ourApps": "Aplikasi Kami",
+  "@ourApps": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "aboutApp": "Tentang Aplikasi",
+  "@aboutApp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "about_app": "Aplikasi 'Aqim' ialah aplikasi Islam yang ringkas dan terus terang, direka khusus untuk membantu anda menunaikan solat tepat pada waktunya dengan mudah.\nAplikasi ini memberi tumpuan kepada alat asas yang diperlukan setiap Muslim dalam kehidupan harian, melalui antara muka interaktif yang mudah digunakan untuk memastikan pengalaman yang selesa dan jelas.\nDengan 'Aqim', anda tidak akan terlepas solat lagi kerana aplikasi ini berfungsi sebagai penggera peribadi dan panduan kiblat yang tepat, menjadikannya alat yang ideal untuk memelihara rukun Islam yang paling penting.",
+  "@about_app": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "about_app2": "Ciri-ciri Aplikasi:",
+  "@about_app2": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "about_app3": "Waktu Solat: Aplikasi memaparkan waktu solat dengan ketepatan tinggi berdasarkan lokasi geografi anda.\nPemberitahuan Azan: Terima amaran audio apabila setiap waktu solat tiba supaya anda sentiasa bersedia.\nArah Kiblat: Kompas yang tepat dan mudah digunakan untuk menentukan arah kiblat yang betul dari mana-mana sahaja di dunia.\nAntara Muka Interaktif: Reka bentuk ringkas dan jelas yang memudahkan navigasi antara ciri aplikasi tanpa kerumitan.",
+  "@about_app3": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Hubungi Kami",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "share": "Kongsi Aplikasi",
+  "@share": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "facebook": "Ikuti Kami di Facebook",
+  "@facebook": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qibla": "Kiblat",
+  "@qibla": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qiblaDirection": "Arah Kiblat",
+  "@qiblaDirection": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "compass": "Kompas",
+  "@compass": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "map": "Peta",
+  "@map": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locationNote": "Sila aktifkan perkhidmatan lokasi untuk menerima waktu solat yang tepat berdasarkan lokasi semasa anda.\nUntuk memastikan waktu solat dikemas kini secara automatik apabila anda melancong atau berpindah ke lokasi baharu, aplikasi juga memerlukan akses kepada lokasi anda di latar belakang.\nKami memberi jaminan bahawa semua data lokasi anda akan kekal sulit sepenuhnya dan tidak akan dikongsi dengan mana-mana pihak ketiga.",
+  "@locationNote": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "notificationNote": "Sila aktifkan pemberitahuan untuk menerima peringatan waktu solat dan pemberitahuan lain.",
+  "@notificationNote": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locate": "Tetapkan Lokasi",
+  "@locate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "activation": "Pengaktifan",
+  "@activation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ok": "OK",
+  "@ok": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "Batal",
+  "teachingPrayer": "Pembelajaran Solat",
+  "noData": "Tiada data untuk @x",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "searchForCity": "Cari Bandar",
+  "@searchForCity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectFromMap": "Pilih dari Peta",
+  "@selectFromMap": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterCityName": "Masukkan nama bandar...",
+  "@enterCityName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "manualLocationNote": "Untuk peranti Huawei, tetapan lokasi manual disyorkan untuk ketepatan terbaik",
+  "@manualLocationNote": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locationSetSuccessfully": "Lokasi berjaya ditetapkan",
+  "@locationSetSuccessfully": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "failedToSetLocation": "Gagal menetapkan lokasi",
+  "@failedToSetLocation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "failedToSearchCities": "Gagal mencari bandar",
+  "@failedToSearchCities": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "What's New": "Apa yang Baharu",
+  "@What's New": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "What'sNewDetails10": "۞ Membetulkan masalah paparan pemberitahuan.\n۞ Peningkatan prestasi dan kestabilan secara umum.",
+  "@What'sNewDetails10": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "shareImage": "Kongsi Imej",
+  "@shareImage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "sharePrayerTime": "Kongsi Waktu Solat",
+  "@sharePrayerTime": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nextPrayer": "Solat Seterusnya",
+  "@nextPrayer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Muharram": "Muharram",
+  "@Muharram": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Safar": "Safar",
+  "@Safar": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Rabi' Al-Awwal": "Rabi' Al-Awwal",
+  "@Rabi' Al-Awwal": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Rabi' Al-Thani": "Rabi' Al-Thani",
+  "@Rabi' Al-Thani": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Jumada Al-Awwal": "Jumada Al-Awwal",
+  "@Jumada Al-Awwal": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Jumada Al-Thani": "Jumada Al-Thani",
+  "@Jumada Al-Thani": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Rajab": "Rajab",
+  "@Rajab": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Sha'aban": "Sya'aban",
+  "@Sha'aban": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Ramadan": "Ramadan",
+  "@Ramadan": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Shawwal": "Syawal",
+  "@Shawwal": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Dhu Al-Qi'dah": "Zulkaedah",
+  "@Dhu Al-Qi'dah": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "Dhu Al-Hijjah": "Zulhijah",
+  "@Dhu Al-Hijjah": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings": "Tetapan",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "prayerDetails": "Butiran Solat",
+  "@prayerDetails": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "min": "min",
+  "@min": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "h": "j",
+  "@h": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "saving...": "Menyimpan...",
+  "@saving...": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locationSetted": "Lokasi Ditentukan",
+  "@locationSetted": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "tapOnMapToSelectLocation": "Ketuk pada peta untuk memilih lokasi",
+  "@tapOnMapToSelectLocation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pleaseSelectLocation": "Sila pilih lokasi pada peta",
+  "@pleaseSelectLocation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "downloadingPrayerData": "Memuat turun data solat...",
+  "@downloadingPrayerData": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noInternet": "Tiada sambungan internet",
+  "@noInternet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noNotifications": "Tiada pemberitahuan",
+  "@noNotifications": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qiblaDirectionForCity": "Arah kiblat untuk bandar anda:",
+  "@qiblaDirectionForCity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qiblaNoteForDesktop": "Ciri ini hanya tersedia pada peranti yang mempunyai kompas. Sila gunakan peranti dengan ciri kompas untuk mendapatkan arah kiblat berdasarkan lokasi semasa anda.",
+  "@qiblaNoteForDesktop": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reminder": "Peringatan",
+  "@reminder": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "baset": "Abdul Basit",
+  "@baset": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qatami": "Nasser Al-Qatami",
+  "@qatami": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "salah": "Salah Al-Deeb",
+  "@salah": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "liatafaqahuu": "liatafaqahuu",
+  "@liatafaqahuu": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "understanding": "untuk memperoleh kefahaman dalam agama",
+  "@understanding": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "start": "Mula",
+  "@start": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "skip": "Langkau",
+  "@skip": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reset": "Tetap Semula",
+  "@reset": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fastingReminder": "Peringatan Puasa",
+  "@fastingReminder": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
