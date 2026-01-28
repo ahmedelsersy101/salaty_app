@@ -1,4 +1,4 @@
-package com.alheekmah.alheekmahLibrary
+package com.salaty.salaty_app
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -11,7 +11,7 @@ import android.view.View
 import android.content.SharedPreferences
 import androidx.core.net.toUri
 import es.antonborri.home_widget.HomeWidgetProvider
-import com.salaty.noorApp.R
+import com.salaty.salaty_app.R
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
@@ -210,7 +210,7 @@ open class PrayerWidget : HomeWidgetProvider() {
 
         // Click: open app
         val intent = Intent(Intent.ACTION_VIEW).apply {
-            setClassName(context.packageName, "com.salaty.noorApp.MainActivity")
+            setClassName(context.packageName, "com.salaty.salaty_app.MainActivity")
             data = "app://open/prayers".toUri()
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP)
             putExtra("widgetClicked", "PrayerWidget")

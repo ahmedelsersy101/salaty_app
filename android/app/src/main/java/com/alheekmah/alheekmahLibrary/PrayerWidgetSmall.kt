@@ -1,7 +1,7 @@
-package com.alheekmah.alheekmahLibrary
+package com.salaty.salaty_app
 
 import android.appwidget.AppWidgetManager
-import com.salaty.noorApp.R
+import com.salaty.salaty_app.R
 
 // Small variant: إجبار التخطيط الصغير مباشرة لمنع التحول الأولي
 class PrayerWidgetSmall : PrayerWidget() {

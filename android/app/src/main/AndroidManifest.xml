@@ -1,44 +1,45 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.salaty.salaty_app">
 
+    <!-- Permissions -->
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.huawei.hms.permission.LOCATION" />
+
+    <!-- Notifications -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <!-- Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Queries (Package Visibility) -->
     <queries>
         <intent>
             <action android:name="android.intent.action.VIEW" />
-
             <data android:scheme="mailto" />
         </intent>
         <intent>
             <action android:name="android.intent.action.VIEW" />
-
-            <data
-                android:host="www.facebook.com"
-                android:scheme="https" />
+            <data android:scheme="https" android:host="www.facebook.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
         </intent>
     </queries>
 
-<!-- geolocator -->
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-<!-- geolocator -->
-
-<!-- Huawei Location permissions -->
-<uses-permission android:name="com.huawei.hms.permission.LOCATION" />
-<!-- Huawei Location permissions -->
-
-<!-- awesome_notifications permissions -->
-  <uses-permission android:name="android.permission.VIBRATE"/>
-  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-<!-- Awesome Notifications permissions -->
-
-        <!-- flutter_local_notifications (Android 13+) -->
-        <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-        <!-- Required for exact alarm scheduling on some Android versions/devices -->
-        <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="الصَّلَاةَ"
         android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
+        android:label="الصلاة"
+        android:icon="@mipmap/launcher_icon"
+        android:allowBackup="true"
+        android:usesCleartextTraffic="false">
+
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -48,66 +49,57 @@
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
-            <!-- Specifies an Android theme to apply to this Activity as soon as
-                 the Android process has started. This theme is visible to the user
-                 while the Flutter UI initializes. After that, this theme continues
-                 to determine the Window background behind the Flutter UI. -->
+
             <meta-data
-              android:name="io.flutter.embedding.android.NormalTheme"
-              android:resource="@style/NormalTheme"
-              />
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <!-- Large Prayer Widget -->
         <receiver
             android:name="com.alheekmah.alheekmahLibrary.PrayerWidget"
             android:exported="false"
             android:label="@string/widget_large_label">
             <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.TIME_SET" />
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-                <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/prayer_widget_large_info" />
         </receiver>
+
+        <!-- Small Prayer Widget -->
         <receiver
             android:name="com.alheekmah.alheekmahLibrary.PrayerWidgetSmall"
             android:exported="false"
             android:label="@string/widget_small_label">
             <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.TIME_SET" />
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-                <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/prayer_widget_small_info" />
         </receiver>
-        <!-- Don't delete the meta-data below.
-             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+
+        <!-- Flutter embedding v2 -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-    </application>
-    <!-- Required to query activities that can process text, see:
-         https://developer.android.com/training/package-visibility and
-         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
-         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
-    <queries>
-        <intent>
-            <action android:name="android.intent.action.PROCESS_TEXT"/>
-            <data android:mimeType="text/plain"/>
-        </intent>
-    </queries>
+    </application>
 </manifest>
