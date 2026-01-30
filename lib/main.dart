@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_info/flutter_app_info.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -21,8 +22,11 @@ Future<void> main() async {
   await initializeApp();
   runApp(AppInfo(
     data: await AppInfoData.get(),
-    child: MyApp(
-      languages: languages,
+    child: DevicePreview(
+      enabled: false,
+      builder: (context) => MyApp(
+        languages: languages,
+      ),
     ),
   ));
 }

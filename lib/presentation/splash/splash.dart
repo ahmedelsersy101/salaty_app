@@ -21,7 +21,6 @@ import '../calendar/events.dart';
 import '../controllers/general/general_controller.dart';
 import '../controllers/huawei_map_controller.dart';
 import '../controllers/settings_controller.dart';
-import '../whats_new/whats_new.dart';
 import 'screen/widgets/active_location_widget.dart';
 import 'screen/widgets/active_notification_widget.dart';
 

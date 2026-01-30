@@ -15,6 +15,7 @@ class SplashScreenController extends GetxController {
   }
 
   @override
+  // ignore: unnecessary_overrides
   void onReady() {
     super.onReady();
   }
