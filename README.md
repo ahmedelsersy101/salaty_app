@@ -1,139 +1,108 @@
-<p align="center">
-	<img src="assets/images/aqim_banner.png" alt="Aqim app banner" width="900" />
-</p>
+<div align="center">
+  <img src="assets/images/aqim_icon.png" alt="Salaty App Logo" width="120" height="120" style="border-radius: 20px;" />
 
-# أَقِم — Aqim
+# 🕌 الصَّلَاةَ — Salaty
 
-تطبيق مواقيت الصلاة والقبلة البسيط والدقيق. Flutter app for Prayer Times and Qibla.
+**رفيقك المسلم المتكامل | Your Complete Muslim Companion**
 
-—
+[![Flutter](https://img.shields.io/badge/Build-Flutter-02569B?logo=flutter&style=flat-square)](https://flutter.dev)
+[![GetX](https://img.shields.io/badge/State_Management-GetX-purple?style=flat-square)](https://pub.dev/packages/get)
+[![Dart](https://img.shields.io/badge/Language-Dart-0175C2?logo=dart&style=flat-square)](https://dart.dev)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green?style=flat-square)]()
 
-## المحتويات · Table of Contents
-
-- [العربية](#العربية)
-	- [نبذة](#نبذة)
-	- [المميزات](#المميزات)
-	- [الأذونات والخصوصية](#الأذونات-والخصوصية)
-	- [التثبيت والتشغيل](#التثبيت-والتشغيل)
-- [English](#english)
-	- [Overview](#overview)
-	- [Features](#features)
-	- [Permissions & Privacy](#permissions--privacy)
-	- [Build & Run](#build--run)
-
-<p align="center">
-	<img src="assets/images/aqim_icon.png" alt="Aqim icon" width="120" />
-</p>
+  <p>
+    <a href="#-about-the-app">نبذة</a> •
+    <a href="#-key-features">المميزات</a> •
+    <a href="#%EF%B8%8F-tech-stack">التقنيات</a> •
+    <a href="#%EF%B8%8F-installation">التثبيت</a>
+  </p>
+</div>
 
 ---
 
-## العربية
+<div align="center">
+  <img src="assets/images/aqim_banner.png" alt="App Banner" width="100%" style="border-radius: 12px;" />
+</div>
 
-### نبذة
+<br />
 
-تطبيق "أَقِم" هو تطبيق إسلامي بسيط ومباشر، مصمم خصيصًا لمساعدتك على أداء صلاتك في وقتها وبكل سهولة. يركز التطبيق على تقديم الأدوات الأساسية التي يحتاجها كل مسلم في حياته اليومية، من خلال واجهة تفاعلية سهلة الاستخدام تضمن لك تجربة مريحة وواضحة. مع "أَقِم"، لن تفوتك أي صلاة بعد الآن؛ إذ يعمل التطبيق كمُنبه شخصي وموجّه دقيق لقبلتك، مما يجعله الأداة المثالية للحفاظ على أهم أركان الإسلام.
-
-### المميزات
-
-- أوقات الصلاة: يعرض التطبيق مواقيت الصلاة بدقة عالية بناءً على موقعك الجغرافي.
-- إشعارات الأذان: استقبل تنبيهات صوتية عند حلول وقت كل صلاة لتكون على استعداد دائم.
-- اتجاه القبلة: بوصلة دقيقة وسهلة الاستخدام لتحديد اتجاه القبلة الصحيح من أي مكان في العالم.
-- واجهة تفاعلية: تصميم بسيط وواضح يجعل من السهل التنقل بين مميزات التطبيق دون أي تعقيد.
-
-### الأذونات والخصوصية
-
-- الموقع: لاستخدام الحسابات الدقيقة لمواقيت الصلاة وتحديد اتجاه القبلة.
-- الإشعارات: لإرسال التنبيهات عند دخول وقت الصلاة.
-
-نلتزم باحترام خصوصيتك وعدم جمع أي بيانات شخصية غير ضرورية.
-
-### التثبيت والتشغيل
-
-متطلبات أساسية:
-
-- Flutter SDK 3.22+ (أو الأحدث)
-- Xcode/Android Studio وأدوات المنصات ذات الصلة
-
-خطوات سريعة:
-
-1) تثبيت الحزم:
-
-```bash
-flutter pub get
-```
-
-2) تشغيل التطبيق على جهاز/محاكي متصل:
-
-```bash
-flutter run
-```
-
-3) إنشاء نسخة إنتاجية (اختياري):
-
-```bash
-# Android
-flutter build apk --release
-
-# iOS (يتطلب macOS وXcode)
-flutter build ipa --release
-```
-
-> يدعم التطبيق تعدد اللغات عبر ملفات `assets/locales/*.json`.
+<table>
+  <tr>
+    <td dir="rtl" align="right" width="50%" valign="top">
+      <h3>📖 نبذة عن التطبيق</h3>
+      <p>
+        تطبيق <strong>الصَّلَاةَ (Salaty)</strong> هو تطبيق إسلامي شامل صُمم بعناية فائقة ليجمع بين دقة الحسابات الفلكية وجمال التصميم. 
+        يهدف التطبيق إلى تيسير حياة المسلم اليومية من خلال تقديم مواقيت الصلاة بدقة، اتجاه القبلة، التقويم الهجري، وميزة تعليم الصلاة، 
+        كل ذلك في واجهة تفاعلية عصرية تدعم الوضعين الداكن والفاتح.
+      </p>
+    </td>
+    <td align="left" width="50%" valign="top">
+      <h3>📖 About The App</h3>
+      <p>
+        <strong>Salaty</strong> is a comprehensive Islamic application crafted with precision and elegance. 
+        It integrates accurate prayer times, Qibla direction, Hijri calendar, and prayer learning guides into a modern, 
+        interactive interface heavily focused on User Experience (UX), supporting both Dark and Light modes.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## English
+## 🚀 المميزات الرئيسية | Key Features
 
-### Overview
+|                   الميزة (Arabic)                   |                     Feature (English)                      |
+| :-------------------------------------------------: | :--------------------------------------------------------: |
+|    **مواقيت دقيقة** ⏱️<br>حساب تلقائي حسب الموقع    | **Accurate Times** ⏱️<br>Auto-calculated based on location |
+|        **القبلة** 🕋<br>بوصلة تفاعلية دقيقة         |    **Qibla Finder** 🕋<br>Interactive & precise compass    |
+|        **التقويم** 📅<br>هجري وميلادي متزامن        |         **Calendar** 📅<br>Hijri & Gregorian sync          |
+|     **تعليم الصلاة** 🤲<br>دليل مصور للمبتدئين      |        **Prayer Guide** 🤲<br>Step-by-step learning        |
+|       **التنبيهات** 🔔<br>أذان وإشعارات مخصصة       |     **Notifications** 🔔<br>Customizable Adhan alerts      |
+|      **الويدجت** 📱<br>متابعة سريعة من الشاشة       |         **Widgets** 📱<br>Home screen integration          |
+| **متعدد اللغات** 🌍<br>دعم كامل للعربية والإنجليزية |    **Localization** 🌍<br>Full Arabic & English support    |
 
-“Aqim” is a simple and focused Islamic app built to help you pray on time with ease. It provides the essential daily tools for every Muslim with a clean, interactive UI for a clear and comfortable experience. With Aqim, you won’t miss a prayer again—think of it as your personal reminder with accurate Qibla guidance.
+---
 
-### Features
+## 🛠️ التقنيات المستخدمة | Tech Stack
 
-- Prayer Times: Highly accurate timings based on your geographic location.
-- Adhan Notifications: Receive audible alerts when it’s time to pray.
-- Qibla Direction: A precise and easy-to-use compass to find the Qibla anywhere.
-- Interactive UI: A clean, straightforward design that’s effortless to navigate.
+<div align="center">
 
-### Permissions & Privacy
+| Category             | Package/Tech                                                          |
+| :------------------- | :-------------------------------------------------------------------- |
+| **Framework**        | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter) |
+| **State Management** | ![GetX](https://img.shields.io/badge/-GetX-purple)                    |
+| **Networking**       | ![Dio](https://img.shields.io/badge/-Dio-red)                         |
+| **Maps & Location**  | `geolocator`, `flutter_map`                                           |
+| **Calculations**     | `adhan`, `hijri_date`                                                 |
+| **Local Storage**    | `get_storage`                                                         |
+| **UI Components**    | `flutter_svg`, `lottie`                                               |
 
-- Location: Required for accurate prayer times and Qibla direction.
-- Notifications: To alert you at prayer times.
+</div>
 
-We respect your privacy and do not collect unnecessary personal data.
+---
 
-### Build & Run
+## 🏗️ التثبيت والتشغيل | Installation
 
-Prerequisites:
-
-- Flutter SDK 3.22+ (or newer)
-- Xcode/Android Studio with platform toolchains
-
-Quick start:
-
-1) Install dependencies:
+<div align="center">
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/username/salaty_app.git
+
+# 2. Navigate to directory
+cd salaty_app
+
+# 3. Install dependencies
 flutter pub get
-```
 
-2) Run on a connected device/emulator:
-
-```bash
+# 4. Run the app
 flutter run
 ```
 
-3) Build release (optional):
+</div>
 
-```bash
-# Android
-flutter build apk --release
+---
 
-# iOS (requires macOS & Xcode)
-flutter build ipa --release
-```
-
-—
-
-Made with Flutter. If you have suggestions or find issues, please open an issue or a pull request.
-# salaty_app
+<p align="center">
+  Done with ❤️ using Flutter
+</p>
