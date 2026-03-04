@@ -26,7 +26,6 @@ class PrayerScreen extends StatelessWidget {
             color: context.theme.colorScheme.primaryContainer,
             child: Column(
               children: [
-                const AppBarWidget(),
                 Obx(
                   () => !generalCtrl.state.activeLocation.value ||
                           LocationHelper.instance.locationIsEmpty
@@ -65,23 +64,7 @@ class PrayerScreen extends StatelessWidget {
                   Gap(16.h),
                   const PrayerNowWidget(),
                   Gap(8.h),
-                  context.hDivider(width: Get.width * .5),
-                  Gap(8.h),
-                  Row(
-                    children: [
-                      Expanded(
-                        flex: 6,
-                        child: updateLocationBuild(context),
-                      ),
-                      Expanded(
-                        flex: 4,
-                        child: HijriDateWidget(
-                          svgColor: context.theme.colorScheme.surface,
-                          horizontalPadding: 24.0,
-                        ),
-                      ),
-                    ],
-                  ),
+                  // context.hDivider(width: Get.width * .5),
                   Gap(8.h),
                   horizontalWeekCalendar(context),
                   Gap(8.h),
