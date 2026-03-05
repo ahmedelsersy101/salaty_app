@@ -78,6 +78,10 @@ class SvgPath {
   /// assets/svg/home/mosque.svg
   static const String svgHomeMosque = "assets/svg/home/mosque.svg";
 
+  /// Assets for svgHomePrayerTimes
+  /// assets/svg/home/prayer_times.svg
+  static const String svgHomePrayerTimes = "assets/svg/home/prayer_times.svg";
+
   /// Assets for svgHomeRamadan
   /// assets/svg/home/ramadan.svg
   static const String svgHomeRamadan = "assets/svg/home/ramadan.svg";

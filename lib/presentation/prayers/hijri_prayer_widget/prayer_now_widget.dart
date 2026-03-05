@@ -268,6 +268,7 @@ const _palettes = [
       accent2: Color(0xFF2979CC)), // Isha
 ];
 
+// ignore: library_private_types_in_public_api
 _PrayerPalette paletteOf(int idx) => _palettes[idx.clamp(0, 5)];
 
 // ─── Card ─────────────────────────────────────────────────────────────────────
@@ -675,6 +676,7 @@ class _ShareBtn extends StatelessWidget {
 
 // ─── Stars ────────────────────────────────────────────────────────────────────
 
+// ignore: unused_element
 class _StarPainter extends CustomPainter {
   final _rng = math.Random(77);
 

@@ -302,6 +302,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "prayerTimes": "Waktu Shalat",
+  "@prayerTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
   "langChange": "Ubah Bahasa",
   "@langChange": {
     "type": "text",

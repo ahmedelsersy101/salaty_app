@@ -302,6 +302,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "prayerTimes": "Waqtiyada Salaadda",
+  "@prayerTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
   "langChange": "Beddelka Luuqadda",
   "@langChange": {
     "type": "text",

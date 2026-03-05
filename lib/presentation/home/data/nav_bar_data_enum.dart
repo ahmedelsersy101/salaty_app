@@ -1,9 +1,9 @@
 part of '../home.dart';
 
 enum NavBarTab {
-  qibla,
   prayer,
-
+  prayerTimes,
+  qibla,
   settings;
 
   String get label {
@@ -12,7 +12,8 @@ enum NavBarTab {
         return 'prayer';
       case NavBarTab.qibla:
         return 'qibla';
-
+      case NavBarTab.prayerTimes:
+        return 'prayerTimes';
       case NavBarTab.settings:
         return 'settings';
     }
@@ -24,7 +25,8 @@ enum NavBarTab {
         return SvgPath.svgHomeMosque;
       case NavBarTab.qibla:
         return SvgPath.svgHomeKaaba;
-
+      case NavBarTab.prayerTimes:
+        return SvgPath.svgHomeTeachingPrayer;
       case NavBarTab.settings:
         return SvgPath.svgHomeSettings;
     }
@@ -41,7 +43,8 @@ enum NavBarTab {
         return PrayerScreen();
       case NavBarTab.qibla:
         return QiblaScreen();
-
+      case NavBarTab.prayerTimes:
+        return const PrayerTimesScreen();
       case NavBarTab.settings:
         return const SettingsScreen();
     }

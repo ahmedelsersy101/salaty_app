@@ -302,6 +302,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "prayerTimes": "Tiempos de Oración",
+  "@prayerTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
   "langChange": "Cambiar idioma",
   "@langChange": {
     "type": "text",

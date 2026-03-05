@@ -1,6 +1,6 @@
-import 'package:floaty_nav_bar/floaty_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:salaty_app/presentation/prayers/screen/prayer_times_screen.dart';
 
 import '../../../core/utils/constants/svg_constants.dart';
 import '../../core/utils/constants/extensions/svg_extensions.dart';

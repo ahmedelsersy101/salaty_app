@@ -302,6 +302,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "prayerTimes": "نماز کے اوقات",
+  "@prayerTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
   "langChange": "زبان تبدیل کریں",
   "@langChange": {
     "type": "text",

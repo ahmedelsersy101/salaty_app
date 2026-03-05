@@ -49,7 +49,6 @@ import '../../../core/widgets/reactive_number_text.dart';
 import '../../core/services/internet_connection_controller.dart';
 import '../../core/widgets/active_location_button.dart';
 import '../../core/widgets/animated_drawing_widget.dart';
-import '../../core/widgets/app_bar_widget.dart';
 import '../../core/widgets/container_button_widget.dart';
 import '../../core/widgets/custom_switch_widget.dart';
 import '../calendar/events.dart';

@@ -302,6 +302,11 @@
     "type": "text",
     "placeholders": {}
   },
+  "prayerTimes": "নামাজের সময়",
+  "@prayerTimes": {
+    "type": "text",
+    "placeholders": {}
+  },
   "langChange": "ভাষা পরিবর্তন",
   "@langChange": {
     "type": "text",
